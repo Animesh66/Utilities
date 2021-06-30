@@ -5,8 +5,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 
-def send_mail(sender_address, receiver_address, subject, mail_content, attach_file_name,
-              ):
+def send_mail(sender_address, receiver_address, subject, mail_content, attach_file_name):
     sender_password = 'Selenium@234'
 
     # Setup the MIME
