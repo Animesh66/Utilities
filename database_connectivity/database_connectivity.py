@@ -23,5 +23,3 @@ def get_my_sql_query(query):
     # for result in results:
     #     print(result)
 
-
-create_db_connection()
