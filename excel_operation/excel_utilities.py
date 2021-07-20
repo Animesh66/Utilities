@@ -27,6 +27,5 @@ def set_cell_data(file_path, sheet_name, row, column, data):
     workbook = xl.load_workbook(file_path)
     sheet = workbook[sheet_name]
     cell = sheet.cell(row=row, column=column)
-    cell_value = cell.value
-    cell_value = data
+    cell_value = cell.value = data
     workbook.save(file_path)
